@@ -1,11 +1,11 @@
 package threesolid;
 
-public class Worker implements IWork, IEat {
+public class Manager implements IEat {
   public void work() {
-    // ....working
+    // ....lol jk i'm a manager
   }
+
   public void eat() {
     //.... eating in lunch break
   }
-
 }
