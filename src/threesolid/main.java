@@ -40,18 +40,18 @@ public class main {
         System.out.println("\nRobot: ");
         andre3000.work();
         andre3000.reboot();
-        
+
         ProductManager steve = new ProductManager();
         System.out.println("\nProduct Manager: ");
         steve.defineProduct();
-        
+
         ProjectManager bob = new ProjectManager();
         System.out.println("\nProject Manager: ");
         bob.scheduleWork();
 
 
         try {
-            System.out.format("Stopping ... \n");
+            System.out.format("\nStopping ... \n");
         } catch (Exception main_except) {
             main_except.printStackTrace();
         }
