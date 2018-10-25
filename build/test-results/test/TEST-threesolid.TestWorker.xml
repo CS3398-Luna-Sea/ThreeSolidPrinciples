@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-25T21:22:24" hostname="zach-inspiron" time="0.01">
+<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-25T21:30:57" hostname="zach-inspiron" time="0.011">
   <properties/>
-  <testcase name="testKeepWorkingMethod()" classname="threesolid.TestWorker" time="0.008">
+  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.006"/>
+  <testcase name="newtestZSWorkerFail()" classname="threesolid.TestWorker" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: Worker should keep working. ==&gt; expected: &lt;I'm still working...&gt; but was: &lt;I don't want to! I quit!&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Worker should keep working. ==&gt; expected: &lt;I'm still working...&gt; but was: &lt;I don't want to! I quit!&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:186)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:497)
-	at threesolid.TestWorker.testKeepWorkingMethod(TestWorker.java:24)
+	at threesolid.TestWorker.newtestZSWorkerFail(TestWorker.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,8 +90,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.0"/>
-  <testcase name="testStopWorkingMethod()" classname="threesolid.TestWorker" time="0.0"/>
+  <testcase name="newtestZSWorkerPass()" classname="threesolid.TestWorker" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

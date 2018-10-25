@@ -14,13 +14,13 @@ public class TestWorker {
 
 	@Test
 	@DisplayName("Stop Working Method Test")
-	public void testStopWorkingMethod() {
+	public void newtestZSWorkerPass() {
 		assertEquals("I am no longer working. Whew.", w.stopWorking(), "Worker should stop working.");
 	}
 
 	@Test
 	@DisplayName("Keep Working Method Test")
-	public void testKeepWorkingMethod() {
+	public void newtestZSWorkerFail() {
 	       assertEquals("I'm still working...", w.keepWorking(), "Worker should keep working.");
 	}
 }
