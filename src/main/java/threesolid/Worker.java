@@ -7,4 +7,7 @@ public class Worker extends BaseWorker implements ISick, IEat {
     public void sick() {
         System.out.println("I've used up all my sick days. I'm going to try calling in dead.");
     }
+    public String workString() {
+	return "I'm working already!";
+    }
 }
