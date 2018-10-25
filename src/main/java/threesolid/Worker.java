@@ -10,4 +10,10 @@ public class Worker extends BaseWorker implements ISick, IEat {
     public String workString() {
 	return "I'm working already!";
     }
+    public String stopWorking() {
+	return "I am no longer working. Whew.";
+    }
+    public String keepWorking() {
+	return "I don't want to! I quit!";
+    }
 }

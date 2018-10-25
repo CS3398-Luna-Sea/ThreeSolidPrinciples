@@ -9,6 +9,18 @@ public class TestWorker {
 	@DisplayName("Work Method Test")
 	public void testWorkMethod()
 	{
-		assertEquals(w.workString(), "I'm working already!", "Mismatch between test text and method text");
+		assertEquals("I'm working already!", w.workString(), "Mismatch between test text and method text");
+	}
+
+	@Test
+	@DisplayName("Stop Working Method Test")
+	public void testStopWorkingMethod() {
+		assertEquals("I am no longer working. Whew.", w.stopWorking(), "Worker should stop working.");
+	}
+
+	@Test
+	@DisplayName("Keep Working Method Test")
+	public void testKeepWorkingMethod() {
+	       assertEquals("I'm still working...", w.keepWorking(), "Worker should keep working.");
 	}
 }
